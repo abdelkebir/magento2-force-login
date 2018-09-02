@@ -30,7 +30,7 @@ class CheckForce implements ObserverInterface
 	{
 		$actionName = $observer->getEvent()->getRequest()->getFullActionName();
 		/* This feature is not available if you are logged in to the back end */
-		if($this->_adminSession->isLoggedIn()){
+		if($this->_adminSession->isLoggedIn() || $actionName == 'adminhtml_auth_login'){
 			return $this;
 		}
 		/* If you are logged in already we should be happy :) */
