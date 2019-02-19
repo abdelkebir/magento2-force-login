@@ -12,8 +12,6 @@ The simplest Magento 2 extension/module ever to force customers to login
 
 4. bin/magento setup:di:compile
 
-If using OpCache, please clear cache.
-
 
 ## Compatibility
 
