@@ -1,0 +1,13 @@
+{
+  "name": "godogi/force-login",
+  "description": "force login module for Magento 2",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Abdelkebir ELHARFALI",
+      "email": "elharfali.abdelkebir@gmail.com",
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {}
+}
